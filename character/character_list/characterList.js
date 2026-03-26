@@ -55,7 +55,7 @@ function renderCharacterList(charactersData) {
         charDescription.classList = "card-text"
         charDescription.innerText = `${c.species} (${c.status})`
 
-        btnViewCharDetails.href = `characterDetails.html?char-id=${c.id}` // TODO: fix this later
+        btnViewCharDetails.href = `/character/character_details/characterDetails.html?char-id=${c.id}` // TODO: fix this later
         btnViewCharDetails.classList = "btn btn-primary"
         btnViewCharDetails.innerText = "View details"
 
